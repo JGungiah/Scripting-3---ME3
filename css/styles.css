@@ -15,6 +15,7 @@
   height: 100%;
 }
 
+/* particle library */
 
 #particles-js
 {
@@ -23,14 +24,25 @@
    
 }
 
+/* Container that centers that text and places it in front of the particles */
+
+/* Title: How to place <span overlay text vertically on an image?
+Authors: ikiKi
+Date: 19 April 2020
+Code Version: HTML 5
+Availability:  https://stackoverflow.com/questions/61297859/how-to-place-span-overlay-text-vertically-over-an-image */ 
+
 .text-container {
   position: absolute;
-  top: 50%; /* Vertically center the text */
+  top: 50%; 
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 1; /* Ensure the text appears on top of particles */
+  z-index: 1; 
   text-align: center;
 }
+
+
+/* The rest of the code is css styling from the bootstrap template */
 
 :root {
   --bs-blue: #0d6efd;
